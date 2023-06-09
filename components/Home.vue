@@ -1,6 +1,6 @@
 <template>
   <div class="relative isolate px-6 pt-14 lg:px-8 h-100vh">
-    <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:-to20" aria-hidden="true">
+    <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden filter blur-3xl sm:-to20" aria-hidden="true" style="filter: blur(64px); -webkit-filter: blur(64px);">
       <img src="~/assets/MBL_Logo.png" class="relative mx-auto aspect-[1155/678] w-[36.125rem]">
     </div>
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
