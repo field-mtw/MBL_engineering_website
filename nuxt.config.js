@@ -8,8 +8,7 @@ export default {
     // description: "ผู้ผลิตและจัดจำหน่ายเหล็กดีคุณภาพโรงงาน",
     keywords: 'engineering, cnc, เหล็กโรงงาน',
     canonical: 'auto',
-    isForcedTrailingSlash: false,
-    author: 'Nick Frostbutter'
+    isForcedTrailingSlash: false
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
