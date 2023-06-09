@@ -1,6 +1,16 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  seo: {
+    baseUrl: 'https://mbl-engineering.com',
+    name: 'MBL Engineering',
+    templateTitle: '%name% — %title%',
+    // description: "ผู้ผลิตและจัดจำหน่ายเหล็กดีคุณภาพโรงงาน",
+    keywords: 'engineering, cnc, เหล็กโรงงาน',
+    canonical: 'auto',
+    isForcedTrailingSlash: false,
+    author: 'Nick Frostbutter'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -47,6 +57,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'MBL Engineering',
       lang: 'en'
     }
   },
